@@ -5,7 +5,7 @@
     <h2>Task list</h2>
     <ul>
         <?php foreach ($tasks->allTasks() as $task): ?>
-        <li class="ongoingsTasks">
+        <li class="<?php if ($task['status'] == 1) echo ' taskComplete';?>">
             <?=$task['subject'];?>
             <?=$task['priority'];?>
             <?=$task['status'];?>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="view/css/styles.css">
     <title>TODO app</title>
     <style type="text/css">
-        .ongoingsTasks{
+        .taskComplete{
             text-decoration: line-through;
         }
     </style>
